@@ -8,5 +8,3 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 # Install Microsoft VSCode
 choco install vscode -y --force
 
-
-
