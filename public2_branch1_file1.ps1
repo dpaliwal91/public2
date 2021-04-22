@@ -2,6 +2,10 @@
 This script installs NotePad++ via Chocolatey
 #>
 
+#descrption: public2_branch1_file1_description
+#tags: public2_branch1_file1_tag
+#execution mode: Combined
+
 # Install Chocolatey if it isn't already installed
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
