@@ -1,1 +1,5 @@
-public2_main_file7.ps1
+for($i= 0; $i -lt 10; $i++)
+{
+Start-Sleep -Seconds 2400
+Write-Output($i);
+}
